@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+header{
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    padding: 0.5em;
+}
+
+h1{
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 2em;
+    color: #444;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 1.5em;
+    color: #666;
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
+
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Funnel Sans', sans-serif;
+}
+
+.logo{
+    border-radius: 0.25em;
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0;
+}
+
+#logo-head{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em
+}
+
+.wordmark{
+
+    font-family: 'Funnel Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+    margin-left: 1em;
+}
+
