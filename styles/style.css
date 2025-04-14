@@ -72,3 +72,15 @@ body{
     margin-left: 1em;
 }
 
+.menu-anim{
+    width: 20px;
+    background-color: white;
+}
+
+.menu-anim:hover{
+    background-color: red;
+    visibility: visible;
+    animation: fadeIn 0.5s ease-in-out;
+    blur: 1em;
+}
+
