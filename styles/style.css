@@ -115,4 +115,7 @@ footer nav a:hover {
     text-decoration: underline;
 }
 
-
+button:hover{
+    color: red;
+    cursor: pointer;
+}
