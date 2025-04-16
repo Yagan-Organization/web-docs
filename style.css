@@ -99,3 +99,92 @@ footer{
     justify-content: space-between;
     margin-top: 2em;
 }
+
+.hero-section {
+    position: relative;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 50em;
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 10;
+}
+
+.logo {
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+.floating {
+
+    position: absolute;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background: none;
+}
+
+.floating img {
+    background: transparent !important;
+}
+
+.phone {
+    background: none;
+    top: 20%;
+    left: 5%;
+    width: 200px; /* élargi un peu */
+    height: 360px;
+    padding: 1rem; /* marge intérieure pour éviter les coups de ciseaux */
+    transform: rotate(-15deg);
+
+}
+
+.phone img {
+    background: none;
+    width: 100%;
+    height: auto;
+    display: block;
+
+
+}
+
+.pass {
+    background: none;
+    bottom: 10%;
+    left: 25%;
+    width: 180px;
+    height: 100px;
+    transform: rotate(-8deg);
+}
+
+.alert {
+    background: none;
+    top: 30%;
+    right: 5%;
+    width: 200px;
+    height: 80px;
+    transform: rotate(5deg);
+}
+
+.buttons button {
+    margin: 0 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.doc {
+    background: #d43c2f;
+    color: white;
+}
+
+.contrib {
+    background: black;
+    color: white;
+}
