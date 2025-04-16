@@ -92,6 +92,8 @@ main{
 }
 
 footer{
+    background-color: #EFEFEF;
+    border-radius: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
