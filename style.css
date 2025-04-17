@@ -86,7 +86,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: image();
     box-shadow: -48px 86px 28px 0px rgba(0, 0, 0, 0.00), -31px 55px 25px 0px rgba(0, 0, 0, 0.01), -17px 31px 21px 0px rgba(0, 0, 0, 0.05), -8px 14px 16px 0px rgba(0, 0, 0, 0.08), -2px 3px 9px 0px rgba(0, 0, 0, 0.09);
 
 }
@@ -98,4 +97,75 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2em;
+}
+
+.hero-section {
+    position: relative;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 50em;
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 10;
+}
+
+.logo {
+    width: 14em;
+    margin-bottom: 1rem;
+}
+
+.floating {
+    position: absolute;
+    transition: transform 0.3s;
+    background: none;
+}
+
+.floating.phone{
+    width: 20em;
+    height: auto;
+    top: 10%;
+    left: 5%;
+}
+
+.floating.alert{
+    width: 10em;
+    height: auto;
+    top: 10%;
+    right: 5%;
+}
+
+.floating.pass{
+    width: 20em;
+    height: auto;
+    bottom: 10%;
+    left: 5%;
+}
+
+.doc{
+    background: #373737;
+    border-radius: 0.5em;
+    color: white;
+    height: 2em;
+
+}
+.contrib{
+    background: #ff0000;
+    border-radius: 0.5em;
+    color: white;
+    height: 2em;
+
+}
+
+.main-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+
 }
