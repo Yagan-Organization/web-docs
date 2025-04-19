@@ -77,18 +77,6 @@ a{
     align-items: center;
 }
 
-main{
-    gap: 0;
-    padding: 2em;
-    background-color: #EFEFEF;
-    border-radius: 20px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: -48px 86px 28px 0px rgba(0, 0, 0, 0.00), -31px 55px 25px 0px rgba(0, 0, 0, 0.01), -17px 31px 21px 0px rgba(0, 0, 0, 0.05), -8px 14px 16px 0px rgba(0, 0, 0, 0.08), -2px 3px 9px 0px rgba(0, 0, 0, 0.09);
-
-}
 
 footer{
     background-color: #EFEFEF;
@@ -100,13 +88,19 @@ footer{
 }
 
 .hero-section {
-    position: relative;
-    background: #f8f8f8;
+
+    width: 90%;
+    gap: 0;
+    padding: 5em;
+    background-color: #EFEFEF;
+    border-radius: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    box-shadow: -48px 86px 28px 0px rgba(0, 0, 0, 0.00), -31px 55px 25px 0px rgba(0, 0, 0, 0.01), -17px 31px 21px 0px rgba(0, 0, 0, 0.05), -8px 14px 16px 0px rgba(0, 0, 0, 0.08), -2px 3px 9px 0px rgba(0, 0, 0, 0.09);
+    position: relative;
     overflow: hidden;
-    height: 50em;
+    height: 80vh;
 }
 
 .hero-content {
@@ -114,10 +108,6 @@ footer{
     z-index: 10;
 }
 
-.logo {
-    width: 14em;
-    margin-bottom: 1rem;
-}
 
 .floating {
     position: absolute;
@@ -125,25 +115,47 @@ footer{
     background: none;
 }
 
+.floating:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05);
+}
+
 .floating.phone{
-    width: 20em;
-    height: auto;
-    top: 10%;
-    left: 5%;
+    width: 25em;
+    height: auto;;
+    left: 1%;
+    z-index: 2;
+    top: 40%;
 }
 
 .floating.alert{
     width: 10em;
     height: auto;
-    top: 10%;
+    top: 60%;
     right: 5%;
 }
 
 .floating.pass{
+    width: 25em;
+    height: auto;
+    left: 20%;
+    top: 60%;
+    z-index: 1;
+}
+
+.floating.contro{
+    top: 60%;
+    right: 10%;
     width: 20em;
     height: auto;
-    bottom: 10%;
-    left: 5%;
+}
+
+.floating.signal{
+    top: 80%;
+    right: -1%;
+    width: 25em;
+    height: auto;
+    rotate: 23deg ;
 }
 
 .doc{
@@ -168,4 +180,25 @@ footer{
     align-items: center;
     gap: 1em;
 
+}
+
+.s-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    width: 100%;
+}
+
+#introduction{
+    background: #ff0000;
+    border-radius: 1.5em;
+    width: 40em;
+    height: 20em;
+}
+
+#open-source{
+    background: #EFEFEF;
+    width: 20em;
+    height: 20em;
+    border-radius: 1.5em;
 }
