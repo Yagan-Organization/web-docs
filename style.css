@@ -9,6 +9,7 @@ body{
 }
 
 h1{
+    text-align: center;
     Font-size: 3em;
     font-weight: 500;
 }
@@ -19,13 +20,13 @@ h2{
 }
 
 h3{
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 400;
 }
 
 h4{
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 
@@ -159,20 +160,6 @@ footer{
     rotate: 23deg ;
 }
 
-.doc{
-    background: #373737;
-    border-radius: 0.5em;
-    color: white;
-    height: 2em;
-
-}
-.contrib{
-    background: #ff0000;
-    border-radius: 0.5em;
-    color: white;
-    height: 2em;
-
-}
 
 .main-buttons-container{
     display: flex;
@@ -194,29 +181,80 @@ footer{
 }
 
 #introduction{
-    background: #ff0000;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: #E4232A;
     border-radius: 1.5em;
     width: 90%;
     height: 20em;
-    box-shadow: -48px 86px 28px 0px rgba(0, 0, 0, 0.00), -31px 55px 25px 0px rgba(0, 0, 0, 0.01), -17px 31px 21px 0px rgba(0, 0, 0, 0.05), -8px 14px 16px 0px rgba(0, 0, 0, 0.08), -2px 3px 9px 0px rgba(0, 0, 0, 0.09);
-
+    box-shadow: -48px 86px 28px 0 rgba(0, 0, 0, 0.00), -31px 55px 25px 0 rgba(0, 0, 0, 0.01), -17px 31px 21px 0 rgba(0, 0, 0, 0.05), -8px 14px 16px 0 rgba(0, 0, 0, 0.08), -2px 3px 9px 0 rgba(0, 0, 0, 0.09);
+    text-align: left;
 
 }
 
+#text-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+
+
 #open-source{
+    padding-left: 1em;
     background: #EFEFEF;
     width: 30%;
     height: 20em;
     border-radius: 1.5em;
 
 }
-#open-source:hover{
-    transition: ease-in 0.15s;
-    box-shadow: -48px 86px 28px 0px rgba(0, 0, 0, 0.00), -31px 55px 25px 0px rgba(0, 0, 0, 0.01), -17px 31px 21px 0px rgba(0, 0, 0, 0.05), -8px 14px 16px 0px rgba(0, 0, 0, 0.08), -2px 3px 9px 0px rgba(0, 0, 0, 0.09);
 
+#open-source img{
+    width: 20em;
 }
+
 
 #open-source:hover:after {
     transtion: ease-in 0.15s;
 
 }
+
+#open-source svg{
+    width: 8em;
+    height: auto;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+
+
+.btn-black{
+    color: white;
+    background-color: #1E1E1E;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+
+.btn-red{
+    background-color: #E4232A;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+
+#work-together-btn:hover{
+
+}
+
+
+.glow-white-text:hover {
+}
+
+.logo{
+    width: 10em;
+}
+
